@@ -1,0 +1,15 @@
+h1{
+    font-display: red;
+}
+.container{
+    text-align: center;
+
+}
+.btn-details{
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
