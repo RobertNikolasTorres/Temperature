@@ -1,15 +1,53 @@
-h1{
-    font-display: red;
-}
-.container{
-    text-align: center;
+header{
+    background-color: aqua;
+    padding-bottom: 40px;
 
 }
-.btn-details{
-    display: block;
-    background-color: orange;
-    color: white;
-    padding: 10px;
+nav{
+    text-align: right;
+    font-display: black;
+    font-size: 20px;
+    margin-right: 60px;
+}
+h1{
+    font-weight: 700;
+    font-display: red;
+    background-color: blue;
     text-align: center;
-    margin: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.weather{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+.pics{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;  
+}
+
+.wording{
+    display: flex;
+    flex-direction: column;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 200px;
+}
+
+.btn{
+    background-color: red;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    font-weight: 600;
 }
